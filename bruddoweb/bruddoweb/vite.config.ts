@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/bruddoweb/', // nastavte podľa názvu repozitára
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
